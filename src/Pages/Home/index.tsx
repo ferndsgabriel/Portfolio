@@ -261,7 +261,8 @@ function Home(){
                             {Api.filter((item) => item.name.toLowerCase().includes(search.toLowerCase()))
                             .slice(maxProjects.first, maxProjects.last)
                             .map((item) => (
-                                <a key={item.id}className="w-full flex-shrink-0 flex flex-col gap-4 scrollReveal relative border border-black group">
+                                <a href={`/details/${item.id}`} target="_blank"
+                                key={item.id}className="w-full flex-shrink-0 flex flex-col gap-4 scrollReveal relative border border-black group">
                                     <img src={item.image} alt={`Foto do projeto ${item.image}`}
                                     className="w-full rounded"/>
                                     <div className="absolute w-full h-full flex flex-col items-center justify-center gap-4 bg-black/90 invisible md:group-hover:visible duration-200">
@@ -293,16 +294,16 @@ function Home(){
 
                     <form className="flex flex-col w-full gap-4 md:grid border-solid border-b-1 border-mainDark py-10 scrollReveal"onSubmit={handleEmail}>
                         <input type="text" ref={emailRef} className="border-y-0 border-solid border-b-1 border-x-0 border-main dark:border-white bg-transparent rounded h-14 p-2  focus:border-b-2 focus:border-x-2
-                        row-start-1 row-end-2 col-start-2 col-end-3" placeholder="Digite seu e-mail:"/>
+                        row-start-1 row-end-2 col-start-1 col-end-2" placeholder="Digite seu e-mail:"/>
 
                         <input type="text" ref={nameRef} className="border-y-0 border-solid border-b-1 border-x-0 border-main dark:border-white bg-transparent rounded h-14 p-2  focus:border-b-2 focus:border-x-2
-                        row-start-2 row-end-3 col-start-2 col-end-3" placeholder="Digite seu nome:"/>
+                        row-start-1 row-end-2 col-start-2 col-end-3" placeholder="Digite seu nome:"/>
 
-                        <textarea ref={messageRef} className='h-56 border-y-0 border-solid border-b-1 border-x-1 border-main dark:border-white bg-transparent rounded p-2  focus:border-b-2 focus:border-x-2 resize-none
-                        row-start-1 row-end-4 md:h-auto' maxLength={400} placeholder="Digite a mensagem..."/>
+                        <textarea ref={messageRef} className='h-56 border-y-0 border-solid border-b-1 border-x-0 border-main dark:border-white bg-transparent rounded p-2  focus:border-b-2 focus:border-x-2 resize-none
+                        col-start-1 col-end-3 md:h-28' maxLength={400} placeholder="Digite a mensagem..."/>
 
                         <button type="submit" className="bg-main p-3 rounded text-white uppercase font-bold hover:bg-mainLight
-                        row-start-3 row-end-4 dark:bg-mainDark duration-300">Enviar</button>
+                        dark:bg-mainDark duration-300 md:w-40">Enviar</button>
                     </form>
 
                     <div className="w-full flex flex-col gap-4 md:flex-row md:items-center md:justify-between scrollReveal">
@@ -325,6 +326,7 @@ function Home(){
                     <span className="font-bold mt-16 self-start">&copy; Gabriel Fernandes 2023 </span>
                 </div>
             </footer>
+            
 
             {/*buttons laterais*/}
             <span className="fixed right-4 bottom-16 hidden md:flex flex-col items-center">
