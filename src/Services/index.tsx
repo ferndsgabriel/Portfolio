@@ -8,6 +8,7 @@ import primeflix from "../Assets/projectsImages/primeflix.png";
 import salaoCondo from "../Assets/projectsImages/salaoCondo.png";
 import sustentabilidade from "../Assets/projectsImages/sustentabilidade.png";
 import uber from "../Assets/projectsImages/uber.png";
+import jokenPo from "../Assets/projectsImages/jokenPo.png";
 
 
 export const Api = [
@@ -65,6 +66,11 @@ export const Api = [
         name:'Game Palmeiras', about:'Este é um projeto de um jogo de adivinhação com o tema do Palmeiras, onde é possível acumular pontos e salvar o estado do jogo. O projeto foi construído utilizando as tecnologias React, TypeScript e CSS.',
         git:'https://github.com/fndsgabriel/PalmeirasGame', deploy:'https://palmeiras-game.vercel.app/',
         image:Palmeiras, id:'10'
+    },
+    {
+        name:'Game jokenPo', about:'Este é um simples jogo de Pedra, Papel e Tesoura que desenvolvi usando linguagens de programação. O jogo é bastante intuitivo e visualmente atraente; eu o criei utilizando React, JavaScript e CSS.',
+        git:'https://github.com/ferndsgabriel/JokenPo', deploy:'https://thejokenpo.vercel.app/',
+        image:jokenPo, id:'11'
     },  
     
 ]
