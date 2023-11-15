@@ -187,7 +187,7 @@ function Home(){
                 </section>
 
                 {/*Section percurso*/}
-                <section className="w-full bg-gray-400/50 OpenLeft min-h-screen dark:bg-main/50" ref={arrayScroll[1]}>
+                <section className="w-full bg-gray-400/50 OpenLeft min-h-screen gradientBG" ref={arrayScroll[1]}>
                     <div className="w-full max-w-4xl mx-auto px-4 py-12" id="skills scrollReveal"> 
                         <h1 className="font-bold uppercase text-lg mb-10">Percurso</h1>
                         <div className="flex flex-col gap-24">
@@ -284,7 +284,7 @@ function Home(){
                 </section>
             </main>
             {/*Footer*/}
-            <footer className="w-full min-h-screen bg-gray-500/30 dark:bg-main/50" ref={arrayScroll[3]}>
+            <footer className="w-full min-h-screen bg-gray-500/30 gradientBG" ref={arrayScroll[3]}>
                 <div className="w-full max-w-4xl min-h-screen mx-auto px-4 py-12 grid-cols-2  flex items-center justify-center flex-col gap-8 scrollReveal">
                 <h2 className="font-bold uppercase text-lg self-start md:hidden">Eviar e-mail</h2>
                     <img src={logo} alt="logo"
