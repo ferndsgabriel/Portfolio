@@ -262,7 +262,7 @@ function Home(){
                             .slice(maxProjects.first, maxProjects.last)
                             .map((item) => (
                                 <a href={`/details/${item.id}`} target="_blank"
-                                key={item.id}className="w-full flex-shrink-0 flex flex-col gap-4 scrollReveal relative border border-black group">
+                                key={item.id}className="w-full flex-shrink-0 flex flex-col gap-4 relative border border-black group">
                                     <img src={item.image} alt={`Foto do projeto ${item.image}`}
                                     className="w-full rounded"/>
                                     <div className="absolute w-full h-full flex flex-col items-center justify-center gap-4 bg-black/90 invisible md:group-hover:visible duration-200">
