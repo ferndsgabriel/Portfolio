@@ -82,7 +82,7 @@ function Home(){
             className={`${maxProjectInPage * x === maxProjects.first ? 'bg-main text-white' : 'bg-light'} rounded-full h-6 hover:scale-110 duration-300 aspect-square text-mainDark flex items-center justify-center`}
             onClick={() => setMaxProject({ first: maxProjectInPage * x, last: maxProjectInPage * (x + 1) })}
             >
-            {x}&nbsp;&plus;&nbsp;1
+            {x + 1}
             </button>
             );
             }
