@@ -20,6 +20,7 @@ import logoDark from "../../Assets/logoDark.svg";
 import {  toast } from 'react-toastify';
 import isEmail from 'validator/lib/isEmail';
 import emailjs from '@emailjs/browser';
+import {Link } from "react-router-dom";
 
 
 function Home(){
@@ -160,27 +161,27 @@ function Home(){
                             <p className="max-w-xs">
                                 Eu sou o Gabriel, tenho 20 anos, sou residente em São Paulo e sou desenvolvedor web. Além disso, estou cursando Gestão da Tecnologia da Informação na FATEC.
                             </p>
-                            <a className="bg-main self-start py-2 px-2 rounded-md text-white font-semibold mt-8
+                            <Link className="bg-main self-start py-2 px-2 rounded-md text-white font-semibold mt-8
                             hover:scale-105 duration-300 flex items-center gap-2"
-                            href="https://drive.google.com/file/d/1Fus93jmFPnWgnOt0DCYBqBoENwHgp3mF/view?usp=sharing" target="_blank">
+                            to="https://drive.google.com/file/d/1Fus93jmFPnWgnOt0DCYBqBoENwHgp3mF/view?usp=sharing" target="_blank">
                                 Currículo <AiOutlineRight className="text-white"/>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="w-full flex justify-between items-center md:flex-row-reverse md:w-80" ref={section1RightRef}>
                             <div className="flex flex-col items-center gap-4">
-                                <a className="text-2xl hover:scale-110 duration-300"
-                                href="https://github.com/ferndsgabriel" target="_blank">
-                                    <FaGithub/></a>
-                                <a className="text-2xl hover:scale-110 duration-300"
-                                href="https://www.linkedin.com/in/ferndsgabriel/" target="_blank">
-                                    <GrLinkedinOption/></a>
-                                <a className="text-2xl hover:scale-110 duration-300"
-                                href="https://www.instagram.com/ferndsgabriel/" target="_blank">
-                                    <AiOutlineInstagram/></a>  
-                                <a className="text-2xl hover:scale-110 duration-300"
-                                href="https://api.whatsapp.com/send?phone=5511992751620&text=" target="_blank">
-                                    <AiOutlineWhatsApp/></a>  
+                                <Link className="text-2xl hover:scale-110 duration-300"
+                                to="https://github.com/ferndsgabriel" target="_blank">
+                                    <FaGithub/></Link>
+                                <Link className="text-2xl hover:scale-110 duration-300"
+                                to="https://www.Linkedin.com/in/ferndsgabriel/" target="_blank">
+                                    <GrLinkedinOption/></Link>
+                                <Link className="text-2xl hover:scale-110 duration-300"
+                                to="https://www.instagram.com/ferndsgabriel/" target="_blank">
+                                    <AiOutlineInstagram/></Link>  
+                                <Link className="text-2xl hover:scale-110 duration-300"
+                                to="https://api.whatsapp.com/send?phone=5511992751620&text=" target="_blank">
+                                    <AiOutlineWhatsApp/></Link>  
                             </div>
                             <img src={Eu} alt="Minha foto"
                             className="w-40 rounded-full select-none html"/>
@@ -269,11 +270,11 @@ function Home(){
                                     <img src={item.image} alt={`Foto do projeto ${item.image}`}
                                     className="w-full rounded"/>
                                     <div className="absolute w-full h-full flex flex-col items-center justify-center gap-4 bg-black/90 invisible md:group-hover:visible duration-200">
-                                        <a href={`/details/${item.id}`}
-                                        className="border-main border-solid  px-3 py-1 rounded-full flex items-center hover:bg-main text-white">Sobre</a>
+                                        <Link to={`/details/${item.id}`}
+                                        className="border-main border-solid  px-3 py-1 rounded-full flex items-center hover:bg-main text-white">Sobre</Link>
                                         
-                                        <a href={item.deploy} target="_blank"
-                                        className="border-main border-solid  px-3 py-1 rounded-full flex items-center hover:bg-main text-white">Projeto <AiOutlineRight className="text-white"/></a>
+                                        <Link to={item.deploy} target="_blank"
+                                        className="border-main border-solid  px-3 py-1 rounded-full flex items-center hover:bg-main text-white">Projeto <AiOutlineRight className="text-white"/></Link>
                                     </div>
                                 </a>
                                 )

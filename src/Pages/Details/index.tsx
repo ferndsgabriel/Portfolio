@@ -2,6 +2,7 @@ import { Api } from "../../Services";
 import { useParams } from "react-router-dom";
 import {useEffect, useState, useRef} from "react";
 import {AiOutlineRight, AiOutlineLeft, AiFillGithub} from 'react-icons/ai';
+import { Link } from "react-router-dom";
 
 function Details(){
     const { id } = useParams();
@@ -15,7 +16,7 @@ function Details(){
                 setIndexProject(x);
             }
         }    
-    },[Details]);
+    },[id]);
 
     const scrollMoreProjects = (value:number)=>{
         scrollRef.current?.scrollBy({
@@ -60,10 +61,10 @@ function Details(){
                         <article className="w-full flex overflow-auto items-center gap-4" ref={scrollRef}>
                             {Api.map((item, index)=>{
                                 return(
-                                    <a href={`/details/${item.id}`} key={index} className="flex-shrink-0 overflow-hidden group rounded">
+                                    <Link to={`/details/${item.id}`} key={index} className="flex-shrink-0 overflow-hidden group rounded">
                                         <img src={item.image} alt={`Projeto ${item.name}`}
                                         className="w-72  group-hover:scale-150 duration-300"/>
-                                    </a>
+                                    </Link>
                                 )
                             })}
                         </article>
