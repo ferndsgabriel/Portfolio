@@ -9,93 +9,75 @@
             visibility: hidden;
         }
     }
+    html, body{
+        color: #05192C;
+        background-color: #fff;
+        cursor: url('./Assets/cursor.cur'), default;
+    }
+
     a, button, input, textArea{
         cursor: url('./Assets/cursorhover.cur'), default;
         outline: none;
         border: none;
     }
 
-    html, body{
-        color: #05192C;
-        background-image: url("./../public/noise.png");
-        background-size: auto;
-        animation: bg 5s infinite;
-    }
     svg{
         color: #3C668D;
     }
-}
 
-::-webkit-scrollbar{
-    background-color: transparent;
-    width: 0;
-}
-    ::-webkit-scrollbar-thumb {
-    background-color: transparent; 
-}
-::-webkit-scrollbar-track {
-    background-color: transparent;
-}
 
-@media (prefers-color-scheme: dark){
-    hmtl,body{
-        background-image: url("./../public/noisedark.png");
-        background-color: #05192C;
-        background-repeat: repeat;
-        color: white;
-        animation: bg 5s infinite;
-        
+    ::-webkit-scrollbar{
+        background-color: transparent;
+        width: 0;
     }
-    svg{
-        color: white;
+        ::-webkit-scrollbar-thumb {
+        background-color: transparent; 
     }
-}
-@keyframes bg{
-    0%{
-        background-position-x: 2000px;
-    }
-    100%{
-        background-size:auto;
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
     }
 
-}
-
-
-.scroll::-webkit-scrollbar{
-    background-color: transparent;
-    background-color: rgba(0, 0, 0, 0.144);
-    width: 6px;
-}
-.scroll::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.493);
-    border-radius: 4px;
-}
-.scroll::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-
-.gradientBG{
-    background: rgb(236,236,236);
-    background: linear-gradient(0deg, rgba(236,236,236,0) 0%, rgba(236,236,236,0.85) 15%, rgba(236,236,236,1) 50%, rgba(236,236,236,0.85) 85%, rgba(236,236,236,0) 98%);
-}
-@media (prefers-color-scheme: dark){
-    .gradientBG{
-        background: rgb(60,102,141);
-        background: linear-gradient(0deg, rgba(60,102,141,0) 0%, rgba(60,102,141,0.15) 10%, rgba(60,102,141,1) 50%, rgba(60,102,141,0.15) 90%, rgba(60,102,141,0) 100%);
-    }
-}
-@media (min-width:768px) {
-    .gradientBG{
-        background: #ECECEC;
-
-    }
     @media (prefers-color-scheme: dark){
-        .gradientBG{
-            background: #3C668D;
+        hmtl, body{
+            background-color: #05192C;
+            color: white;           
+        }
+        svg{
+            color: white;
         }
     }
 
-}
-body{
-    cursor: url('./Assets/cursor.cur'), default;
+
+    .scroll::-webkit-scrollbar{
+        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.144);
+        width: 6px;
+    }
+    .scroll::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.493);
+        border-radius: 4px;
+    }
+    .scroll::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+
+
+    @media (max-width:768px) {
+        .gradientBG{
+            background: rgb(236,236,236);
+            background: linear-gradient(0deg, rgba(236,236,236,0) 0%, rgba(236,236,236,0.85) 15%, rgba(236,236,236,1) 50%, rgba(236,236,236,0.85) 85%, rgba(236,236,236,0) 98%);
+        }
+
+    }
+
+    @media (prefers-color-scheme: dark){
+        @media (max-width:768px){
+            .gradientBG{
+                background: rgb(60,102,141);
+                background: linear-gradient(0deg, rgba(60,102,141,0) 0%, rgba(60,102,141,0.15) 10%, rgba(60,102,141,1) 50%, rgba(60,102,141,0.15) 90%, rgba(60,102,141,0) 100%);
+            }
+        }
+
+    }
 }

@@ -152,7 +152,7 @@ function Home(){
             <Header/>
             <main className="w-full overflow-x-hidden">
                 
-                <section className="w-full html" ref={arrayScroll[0]} id="about">
+                <section className="w-full min-h-screen md:animate-bgWhite md:bg-blend-multiply dark:bg-mainDark md:dark:animate-bgDark md:dark:bg-blend-screen" ref={arrayScroll[0]} id="about">
                     <div className="w-full min-h-screen max-w-4xl mx-auto px-4 py-18 flex flex-col gap-8 md:flex-row justify-center md:items-center">
                         <div className="flex flex-col w-full" ref={section1LeftRef}>
                             <h1 className="font-bold text-lg uppercase">
@@ -191,7 +191,7 @@ function Home(){
                 </section>
 
                 {/*Section percurso*/}
-                <section className="w-full bg-gray-400/50 OpenLeft min-h-screen gradientBG" ref={arrayScroll[1]}>
+                <section className="w-full min-h-screen gradientBG md:bg-light md:animate-bgWhite md:bg-blend-multiply md:dark:bg-main md:dark:animate-bgDark md:dark:bg-blend-screen" ref={arrayScroll[1]} id="skills">
                     <div className="w-full max-w-4xl mx-auto px-4 py-12" id="skills scrollReveal"> 
                         <h1 className="font-bold uppercase text-lg mb-10">Percurso</h1>
                         <div className="flex flex-col gap-24">
@@ -252,7 +252,7 @@ function Home(){
                     </div>
                 </section>
                 {/*section project */}
-                <section ref={arrayScroll[2]} className="w-full min-h-screen" id="projects">
+                <section ref={arrayScroll[2]} className="w-full min-h-screen md:animate-bgWhite md:bg-blend-multiply  dark:bg-mainDark md:dark:animate-bgDark md:dark:bg-blend-screen" id="projects">
                     <div className="w-full max-w-4xl h-full mx-auto px-4 py-12 flex flex-col gap-4 scrollReveal">
                         <h1 className="font-bold uppercase text-lg">Projetos</h1>
                         <h2>Todos os projetos - {Api.length}</h2>
@@ -288,7 +288,7 @@ function Home(){
                 </section>
             </main>
             {/*Footer*/}
-            <footer className="w-full min-h-screen bg-gray-500/30 gradientBG" ref={arrayScroll[3]}>
+            <footer className="w-full min-h-screen gradientBG md:bg-light md:animate-bgWhite md:bg-blend-multiply md:dark:bg-main md:dark:animate-bgDark md:dark:bg-blend-screen" ref={arrayScroll[3]}>
                 <div className="w-full max-w-4xl min-h-screen mx-auto px-4 py-12 grid-cols-2  flex items-center justify-center flex-col gap-8 scrollReveal">
                 <h2 className="font-bold uppercase text-lg self-start md:hidden">Eviar e-mail</h2>
                     <img src={logo} alt="logo"
