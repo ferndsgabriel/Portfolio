@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from "react";
 const ThemeContext = createContext();
 
 export default function ThemeProvider({ children }) {
-    const [dark, setDark] = useState(true);
+    const [dark, setDark] = useState(false);
 
     const changeThemes = (boolean) => {
         setDark(boolean);
@@ -22,7 +22,7 @@ export default function ThemeProvider({ children }) {
 
     useEffect(() => {
         const root = document.documentElement.style;
-        root.setProperty('--Primary', !dark ? 'rgb(252,252,252)' : 'rgb(43,43,43)');
+        root.setProperty('--Primary', !dark ? '#f6f6f6' : 'rgb(43,43,43)');
         root.setProperty('--Primary2', !dark ? 'rgb(183,183,183)' : 'rgb(128,128,128)');
         root.setProperty('--Primary3', !dark ? 'rgb(230,230,230)': 'rgb(49,49,49)');
         root.setProperty('--Primary4', !dark ? 'rgb(230,230,230)' : 'rgb(37,37,37)');

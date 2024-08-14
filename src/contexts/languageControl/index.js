@@ -5,7 +5,7 @@ import { createContext, useState, useEffect } from "react";
 const LanguageContext = createContext();
 
 export default function LanguageProvider({children}){
-    const [isBr, setIsBr] = useState(false);
+    const [isBr, setIsBr] = useState(true);
 
     const changeLanguage = (boolean) => {
         setIsBr(boolean);

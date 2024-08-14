@@ -21,7 +21,7 @@
 
 ```bash
     # clone the project
-    $ git clone https://github.com/ferndsgabriel/Dinamic_portfolio.git
+    $ git clone https://github.com/ferndsgabriel/Dinamic_portfolio.git](https://github.com/ferndsgabriel/Portfolio.git
 ```   
 ```bash
     # install dependencies
