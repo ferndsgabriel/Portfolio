@@ -310,7 +310,9 @@ export default function Home() {
                                 value={message} onChange={(e)=>setMessage(e.target.value)}/>
                             </label>
 
-                            <button type='submit' className='animateOpenRight' disabled={loadingButton}>Enviar</button>
+                            <button type='submit' className='animateOpenRight' disabled={loadingButton}>
+                                {isBr? 'Enviar' : 'Send'}
+                            </button>
                         </form>
                     </div>
                 </section>
