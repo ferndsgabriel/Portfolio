@@ -54,6 +54,16 @@
             "Description": "This is the SalãoCondo Administrator project, developed for administrators. It allows for controlling residents and managing payment statuses, which must be up to date for reservations to be made. Additionally, it offers reservation management, guest list access, and a dashboard with insights."
             },
             
+            {"Name":"Credit Manage", 
+            "Technologies":["https://lh3.googleusercontent.com/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w", 
+            "https://lh3.googleusercontent.com/d/1HCKs4gppBrXxXk7uZvNQGHofGYrRRuku",
+            "https://lh3.googleusercontent.com/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1"], 
+            "Image":"https://lh3.googleusercontent.com/d/1Nvvg8y26YQoXhMrZwkV_cz9rv8HsjBf-", 
+            "GitHub":"https://github.com/ferndsgabriel/Credit-manage.git", 
+            "Deploy":"https://creditmanage.vercel.app/",
+            "Description":"Credit Manage is a project I developed to provide more efficient control over credit card expenses. The system allows for the registration of credit cards and the designation of authorized users for purchases. A key feature is the middleware, which automatically adjusts the installments by considering the card's billing cycle, the purchase date, and the current date, ensuring more accurate expense management."
+            },
+
             {"Name": "English Cast", 
             "Technologies": ["https://lh3.googleusercontent.com/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w", 
             "https://lh3.googleusercontent.com/d/1jL0jcM-f_LhuPftN-OAQyOVuL86MVjOk", 

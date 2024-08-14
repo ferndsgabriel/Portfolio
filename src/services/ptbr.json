@@ -55,6 +55,16 @@
             "Description":"Este é o projeto SalãoCondo, desenvolvido para administradores. Ele permite o controle dos moradores e o gerenciamento do status de pagamentos, que deve estar em dia para que possam ser feitas reservas. Além disso, oferece a gestão das reservas, acesso à lista de convidados e um dashboard com insights."
             },
             
+            {"Name":"Credit Manage", 
+            "Technologies":["https://lh3.googleusercontent.com/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w", 
+            "https://lh3.googleusercontent.com/d/1HCKs4gppBrXxXk7uZvNQGHofGYrRRuku",
+            "https://lh3.googleusercontent.com/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1"], 
+            "Image":"https://lh3.googleusercontent.com/d/1Nvvg8y26YQoXhMrZwkV_cz9rv8HsjBf-", 
+            "GitHub":"https://github.com/ferndsgabriel/Credit-manage.git", 
+            "Deploy":"https://creditmanage.vercel.app/",
+            "Description":"O Credit Manage é um projeto que desenvolvi para oferecer um controle mais eficiente dos gastos com cartão de crédito. O sistema permite cadastrar cartões e definir as pessoas autorizadas a realizar compras. Uma funcionalidade importante é o middleware, que automaticamente ajusta as parcelas, levando em conta o período de fechamento do cartão, a data de cada compra e o dia atual, garantindo um gerenciamento mais preciso das despesas."
+            },
+
             {"Name":"English Cast", 
             "Technologies":["https://lh3.googleusercontent.com/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w", 
             "https://lh3.googleusercontent.com/d/1jL0jcM-f_LhuPftN-OAQyOVuL86MVjOk", 
