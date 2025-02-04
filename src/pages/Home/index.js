@@ -11,6 +11,9 @@ import "react-multi-carousel/lib/styles.css";
 import { toast } from 'react-toastify';
 import {isEmail} from 'validator';
 import emailjs from "@emailjs/browser";
+import { TypeAnimation } from "react-type-animation";
+
+
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -163,12 +166,17 @@ export default function Home() {
                     <section className="section1">
                         <div className="section1Container">
                             <div>
-                                <h1 className='h1-1 animateOpenLeft'>
+                                <h1 className=''>
                                     {isBr? 'Olá, eu sou' : "Hi, i'm" }
                                 </h1>
-                                <h1 className='h1-2 animateOpenLeft'>
-                                    {data.Presentation.Resume}
-                                </h1>
+                                <TypeAnimation
+                                    sequence={[
+                                    `${data.Presentation.Resume}`,
+                                    ]}
+                                   
+                                    speed={50}
+                                    className='h1-2 animateOpenLeft'
+                                />
                             </div>
                         </div>
                     </section>

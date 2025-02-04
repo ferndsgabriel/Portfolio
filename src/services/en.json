@@ -27,7 +27,8 @@
             {"Name": "Git", "Url": "https://lh3.googleusercontent.com/d/1B79rxiceuYX_EtSMXBxwQb44qwAsI7V_"},
             {"Name": "ReactJS", "Url": "https://lh3.googleusercontent.com/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w"},
             {"Name": "NextJS", "Url": "https://lh3.googleusercontent.com/d/1W4BEA_ZcMllbYndkiXuOugnynlOTgo5d"},
-            {"Name": "Firebase", "Url": "https://lh3.googleusercontent.com/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1"}
+            {"Name": "Firebase", "Url": "https://lh3.googleusercontent.com/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1"},
+            {"Name":"MongoDB", "Url":"https://lh3.googleusercontent.com/d/1NuLCx6578f_jGsXV249S9bR8F9aMO553"}
         ]
     },
     "Projects": {
@@ -177,6 +178,19 @@
             "Image": "https://lh3.googleusercontent.com/d/1VN1wTIfiWuL2xF94PK6eebsRRjKpShu-",
             "Link": "https://www.udemy.com/share/101sRi3@qTT646zEt3b8gs3cECduAQp35diq1gUl9qJVitg8PQqgQ2ULNDirHqJ8u1twCvVNpA==/",
             "Description": "This was my first course focused on frontend development. The course includes many detailed lessons and sessions on the three main web development technologies. It provided me the opportunity to learn how web pages are created and how to develop them."
+        },
+        {
+            "Name": "MongoDB: From Basics to Advanced",
+            "Image": "https://lh3.googleusercontent.com/d/1v9J3nNTbPQ1SYadPvgVuMxEA2TDXoJya",
+            "Link": "https://www.udemy.com/share/10b7ju3@SrMKhgwyHiqFdI4HEQYBjcgXOYdNW94BpWid2kblgIHvGwNVPecmovOIH0B1LFBzfQ==/",
+            "Description": "I took this course because I was curious to learn more about NoSQL databases. MongoDB turned out to be an excellent choice—it's a powerful database, easy to learn, and integrates seamlessly with Node.js."
+        },
+        {
+            "Name": "JavaScript Rest API Course: From Zero to API",
+            "Image": "https://lh3.googleusercontent.com/d/1gAVJiHVBP0r0y970Xwmlccu6qth9htWP",
+            "Link": "https://www.udemy.com/share/10c3G13@rbo5Jv2xqeffWWE6G8SEp7v73pjvRVJzVeCE0xHgxKR6cj32-e7SnM9--lkMcGtZXQ==/",
+            "Description": "Learning about REST APIs was essential to improving the quality of my APIs, understanding how to structure them with best practices and design patterns. The course also includes a session on Docker, which helped me deepen my knowledge of this technology."
         }
+        
     ]
 }

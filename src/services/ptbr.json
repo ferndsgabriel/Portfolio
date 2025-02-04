@@ -28,7 +28,8 @@
             {"Name":"Git", "Url":"https://lh3.googleusercontent.com/d/1B79rxiceuYX_EtSMXBxwQb44qwAsI7V_"},
             {"Name":"ReactJS", "Url":"https://lh3.googleusercontent.com/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w"},
             {"Name":"NextJS", "Url":"https://lh3.googleusercontent.com/d/1W4BEA_ZcMllbYndkiXuOugnynlOTgo5d"},
-            {"Name":"Firebase", "Url":"https://lh3.googleusercontent.com/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1"}
+            {"Name":"Firebase", "Url":"https://lh3.googleusercontent.com/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1"},
+            {"Name":"MongoDB", "Url":"https://lh3.googleusercontent.com/d/1NuLCx6578f_jGsXV249S9bR8F9aMO553"}
         ]
     },
     "Projects":{
@@ -146,11 +147,22 @@
         "Description":"Este curso foi fundamental para minha evolução, pois além de me ensinar TypeScript, também cobriu frameworks e Node.js. Isso me capacitou a desenvolver projetos fullstack. Com o conhecimento adquirido, alcancei um novo nível de habilidades e fui capaz de criar projetos mais complexos, entendendo como funciona a interação entre o CRUD e a manipulação de dados no frontend."
         },
 
-
         {"Name":"Web Frontend Fundamentos HTML CSS JS",
         "Image":"https://lh3.googleusercontent.com/d/1VN1wTIfiWuL2xF94PK6eebsRRjKpShu-", 
         "Link":"https://www.udemy.com/share/101sRi3@qTT646zEt3b8gs3cECduAQp35diq1gUl9qJVitg8PQqgQ2ULNDirHqJ8u1twCvVNpA==/",
         "Description":"Este foi meu primeiro curso voltado para front-end. O curso inclui muitas aulas e sessões detalhadas sobre as três principais tecnologias para desenvolvimento web. Ele me proporcionou a oportunidade de aprender como as páginas web são criadas e como desenvolvê-las."
+        },
+
+        {"Name":"MongoDB: Do Básico ao Avançado",
+        "Image":"https://lh3.googleusercontent.com/d/1v9J3nNTbPQ1SYadPvgVuMxEA2TDXoJya",
+        "Link":"https://www.udemy.com/share/10b7ju3@SrMKhgwyHiqFdI4HEQYBjcgXOYdNW94BpWid2kblgIHvGwNVPecmovOIH0B1LFBzfQ==/",
+        "Description":"Fiz este curso porque estava curioso para aprender mais sobre bancos NoSQL. O MongoDB se mostrou uma excelente opção: é um banco de dados poderoso, fácil de aprender e que se integra muito bem com o Node.js."
+        },
+
+        {"Name":"Curso de JavaScript RestAPI: Do Zero à API",
+        "Image":"https://lh3.googleusercontent.com/d/1gAVJiHVBP0r0y970Xwmlccu6qth9htWP",
+        "Link":"https://www.udemy.com/share/10c3G13@rbo5Jv2xqeffWWE6G8SEp7v73pjvRVJzVeCE0xHgxKR6cj32-e7SnM9--lkMcGtZXQ==/",
+        "Description":"Aprender sobre API REST foi essencial para melhorar a qualidade das minhas APIs, entendendo como estruturá-las com boas práticas e padrões. O curso também inclui uma sessão sobre Docker, o que me ajudou a aprofundar meu conhecimento nessa tecnologia."
         }
     ]
 }
