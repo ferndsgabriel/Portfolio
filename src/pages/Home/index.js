@@ -166,7 +166,7 @@ export default function Home() {
                     <section className="section1">
                         <div className="section1Container">
                             <div>
-                                <h1 className=''>
+                                <h1 className='h1-1'>
                                     {isBr? 'Olá, eu sou' : "Hi, i'm" }
                                 </h1>
                                 <TypeAnimation
