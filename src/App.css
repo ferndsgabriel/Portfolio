@@ -1,0 +1,94 @@
+
+/* Gotham Light */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Gotham Light Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_lightitalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Gotham Book (pode ser considerado o "regular" ou "normal") */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_book.otf') format('opentype');
+    font-weight: 400; /* 400 ou 'normal' é o padrão para texto normal */
+    font-style: normal;
+}
+
+/* Gotham Book Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_bookitalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Gotham Medium */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Gotham Medium Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_mediumitalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Gotham Bold */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_bold.otf') format('opentype');
+    font-weight: 700; /* 700 ou 'bold' é o padrão para negrito */
+    font-style: normal;
+}
+
+/* Gotham Bold Italic */
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/gotham/gothamrndssm_bolditalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+body {
+    font-family: "Gotham";
+    box-sizing: border-box;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+/* Estilo da barra */
+::-webkit-scrollbar {        
+    height: 8px;  
+    width: 8px;         
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;   
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(44, 44, 44);
+}

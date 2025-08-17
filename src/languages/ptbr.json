@@ -1,0 +1,110 @@
+{
+    "header": {
+        "sections": [
+            {
+                "title": "Sobre",
+                "href": "#about"
+            },
+            {
+                "title": "Projetos",
+                "href": "#projects"
+            },
+            {
+                "title": "Habilidades",
+                "href": "#skills"
+            },
+            {
+                "title": "Certificados",
+                "href": "#certificates"
+            },
+            {
+                "title": "Contate-me",
+                "href": "#contact"
+            }
+        ]
+    },
+
+    "about": {
+        "title": "<h1 class='text-4xl'><p class='text-xl opacity-70'>Olá, eu sou</p>Gabriel, um desenvolvedor web</h1>",
+        "description": "Sou desenvolvedor web de São Paulo, com experiência em frontend e backend. Este portfólio apresenta minha trajetória, aprendizados e projetos na área de desenvolvimento."
+    },
+
+    "projects": {
+        "title": "Projetos",
+        "projects": [
+            {
+                "title": "IFM Diagram Building Tools",
+                "description": "Projeto em desenvolvimento para a empresa onde trabalho. Ele permite criar diagramas intuitivos em interfaces IO-Link, Mobile e ASi-Interface. O sistema também oferece a opção de gerar uma planilha Excel para cotação de itens no e-shop da empresa, além de diagramas de ligações elétricas.",
+                "link": "https://diagrambuilding.vercel.app/",
+                "image": "https://drive.google.com/file/d/1wRsukUG0Gd46-oFcUdMDpZf8BS7RcxqO/view?usp=drive_link"
+            },
+            {
+                "title": "Londres Barber",
+                "description": "Landing page desenvolvida para uma barbearia localizada no bairro de Perus.",
+                "link": "https://douglas-barber.vercel.app/",
+                "image": "https://drive.google.com/file/d/1jXHYE82-cta0Tq6T5rQu90vptFGuVXVB/view?usp=drive_link"
+            },
+            {
+                "title": "SalãoCondo",
+                "description": "Sistema para reserva e gestão de salões de festas em condomínios. Conta com três personas (morador, administrador e porteiro). É possível agendar, aprovar ou cancelar reservas, registrar lista de convidados e realizar check-in no dia do evento.",
+                "link": "https://salaocondo.vercel.app/",
+                "image": "https://drive.google.com/file/d/1-plPIDABOBZHYz4MX3yPYsc7W0Hw7uYu/view?usp=drive_link"
+            },
+            {
+                "title": "NewTechTVS",
+                "description": "Landing page criada para uma empresa de venda e manutenção de televisores localizada na Santa Ifigênia.",
+                "link": "https://newtechtvs.com/",
+                "image": "https://drive.google.com/file/d/12FFmaO07E7fCxFIe_jbNfLvrGB9mv6fv/view?usp=drive_link"
+            }
+        ],
+        "go": "Visitar"
+    },
+
+    "skills": {
+        "title": "Minhas Stacks",
+        "title2": "Habilidades",
+        "skills": [
+            { "title": "HTML", "image": "https://drive.google.com/file/d/17-zWgr-hSq8NgsPAepWUDTg6cRDJO9D5/view?usp=drive_link" },
+            { "title": "CSS", "image": "https://drive.google.com/file/d/1jL0jcM-f_LhuPftN-OAQyOVuL86MVjOk/view?usp=drive_link" },
+            { "title": "SASS", "image": "https://drive.google.com/file/d/1qilnjLDNvVcLDhxqtDy_utFUDBlAQ2iy/view?usp=drive_link" },
+            { "title": "Tailwind CSS", "image": "https://drive.google.com/file/d/1_6WJ3MyBi0Cf8RT0nrZupCdlvsc02rWe/view?usp=drive_link" },
+            { "title": "JavaScript", "image": "https://drive.google.com/file/d/168JjYSFLB0ESlwvH9fN3ldsjJ_8Gx4Fm/view?usp=drive_link" },
+            { "title": "TypeScript", "image": "https://drive.google.com/file/d/1ucUAUEUjG-Ri0fNMbuG-ZlWbwz14LdXU/view?usp=drive_link" },
+            { "title": "React.JS", "image": "https://drive.google.com/file/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w/view?usp=drive_link" },
+            { "title": "Next.JS", "image": "https://drive.google.com/file/d/1W4BEA_ZcMllbYndkiXuOugnynlOTgo5d/view?usp=drive_link" },
+            { "title": "Node.JS", "image": "https://drive.google.com/file/d/1CWX7qwGnWix_GRq4dZHs32Gcieka4qef/view?usp=drive_link" },
+            { "title": "Nest.JS", "image": "https://drive.google.com/file/d/1R1WgO5UgJV3IEHrEJr-7nbMi1t1ApbCk/view?usp=drive_link" },
+            { "title": "MongoDB", "image": "https://drive.google.com/file/d/1NuLCx6578f_jGsXV249S9bR8F9aMO553/view?usp=drive_link" },
+            { "title": "Firebase", "image": "https://drive.google.com/file/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1/view?usp=drive_link" },
+            { "title": "Git", "image": "https://drive.google.com/file/d/1B79rxiceuYX_EtSMXBxwQb44qwAsI7V_/view?usp=drive_link" },
+            { "title": "Github", "image": "https://drive.google.com/file/d/130Ah2I9-hKKp5-6CiF08AXRGzWVbv5m1/view?usp=drive_link" }
+        ]
+    },
+
+    "email": {
+        "title": "Me envie uma mensagem!",
+        "description": "Tem alguma dúvida, proposta ou apenas quer dizer oi? Fique à vontade para me escrever.",
+        "inputName": "Seu nome",
+        "inputNamePlaceholder": "Digite seu nome",
+        "inputEmail": "Seu e-mail",
+        "inputEmailPlaceholder": "Digite seu e-mail",
+        "inputSubject": "Assunto",
+        "inputMessage": "Digite sua mensagem",
+        "button": "Enviar"
+    },
+
+    "contact": [
+        {
+            "title": "LinkedIn",
+            "href": "https://www.linkedin.com/in/ferndsgabriel/"
+        },
+        {
+            "title": "GitHub",
+            "href": "https://github.com/ferndsgabriel"
+        },
+        {
+            "title":"Currículo",
+            "href":"https://drive.google.com/file/d/1cTKXpIoi0LUwGxUQ1vVDcztYdDt9p5PS/view?usp=drive_link"
+        }
+    ]
+}
