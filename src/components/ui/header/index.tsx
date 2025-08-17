@@ -59,7 +59,7 @@ function Header(){
                     </ul>
 
                     <div className="bg-black h-full aspect-square rounded-sm overflow-hidden">
-                        <img src="./public/logo.webp" alt="logo" className="w-full h-full object-contain"/>
+                        <img src="./logo.webp" alt="logo" className="w-full h-full object-contain"/>
                     </div>
                 </div>
                 
