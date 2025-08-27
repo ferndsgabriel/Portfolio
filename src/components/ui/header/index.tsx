@@ -43,7 +43,7 @@ function Header(){
         <>
             <header style={{ backgroundColor: bg, transition: 'background-color 0.3s linear' }}
             className="h-34 p-8 fixed w-full top-0 z-50">
-                <div className="w-full h-full max-w-7xl mx-auto flex justify-between    items-center">
+                <div className="w-full h-full mx-auto flex justify-between    items-center">
                     
                     <button onClick={toggleMenu} 
                     className="lg:hidden text-3xl self-start">

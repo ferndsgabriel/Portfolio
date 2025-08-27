@@ -81,6 +81,48 @@
         ]
     },
 
+    "certificates": {
+        "title": "Certificados",
+        "certificates": [
+            {
+                "title": "Do Zero à API: Curso de JavaScript e TypeScript - JS/TS",
+                "description": "Curso completo de Node.js, abordando a criação de APIs RESTful seguras e escaláveis, incluindo autenticação com JWT e Bcrypt, boas práticas de desenvolvimento e otimização de desempenho. Inclui Docker, Dockerfile e conceitos de TypeScript.",
+                "image":"https://drive.google.com/file/d/1gAVJiHVBP0r0y970Xwmlccu6qth9htWP/view?usp=drive_link"
+            },
+            {
+                "title":"Projeto Completo NodeJS, React, React Native, TypeScript",
+                "description":"Curso Full Stack que ensina a desenvolver projetos completos com Node.js, React.js e React Native, cobrindo backend, frontend e mobile. Inclui banco de dados, APIs, boas práticas e implantação de sistemas prontos para produção.",
+                "image":"https://drive.google.com/file/d/1osnFK32zV3-6Jn1m78PkO7pmMmJivmUF/view?usp=drive_link"
+            },
+            {
+                "title":"Tailwind CSS do zero ao avançado + Projetos",
+                "description":"Curso de Tailwind CSS com foco na criação de layouts profissionais e responsivos, utilizando Grid, Flexbox, animações, tipografia e pseudo-classes. Inclui projetos práticos e técnicas avançadas de design frontend.",
+                "image":"https://drive.google.com/file/d/1nMaJCMsfCnldXNxL6NOB5HwS7sVjyO67/view?usp=drive_link"
+            },
+            {
+                "title":"MongoDB: Do Básico ao Avançado",
+                "description":"Curso que aborda MongoDB desde a instalação até consultas avançadas, operações CRUD e integração com Node.js. Ensina manipulação de dados em bancos de dados não relacionais.",
+                "image":"https://drive.google.com/file/d/1v9J3nNTbPQ1SYadPvgVuMxEA2TDXoJya/view?usp=drive_link"
+            },
+            {
+                "title":"Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos",
+                "description":"Curso de Front-End que cobre HTML, CSS e JavaScript, com foco na criação de sites modernos, responsivos e interativos. Inclui layouts com Flexbox e Grid, efeitos CSS3, SEO, acessibilidade e mais de 10 projetos práticos.",
+                "image":"https://drive.google.com/file/d/1VN1wTIfiWuL2xF94PK6eebsRRjKpShu-/view?usp=drive_link"
+            },
+            {
+                "title":"PRO FIGMA | UI DESIGN com Figma do Zero ao especialista",
+                "description":"Curso completo de Figma, abordando desde ferramentas básicas até prototipação avançada de aplicativos e sites. Inclui UI/UX, componentização, auto layout, animações, fluxos de usuário e criação de design systems.",
+                "image":"https://drive.google.com/file/d/10On972Fnyj1CP7NWpNp-vEs2vB_Y2HVH/view?usp=drive_link"
+            },
+            {
+                "title":"Inglês Extremo - Curso Completo do Zero à Fluência",
+                "description":"Curso de inglês completo, com metodologia prática e progressiva, focado em compreensão auditiva, vocabulário e comunicação do dia a dia. Inclui recursos de memorização, flashcards e abordagem natural de aprendizado.",
+                "image":"https://drive.google.com/file/d/1C4Mu0C_51XXvFoCMsAvu8zAK0AsqmqCS/view?usp=sharing"
+            }
+        ]
+    },
+
+
     "email": {
         "title": "Me envie uma mensagem!",
         "description": "Tem alguma dúvida, proposta ou apenas quer dizer oi? Fique à vontade para me escrever.",
@@ -106,5 +148,10 @@
             "title":"Currículo",
             "href":"https://drive.google.com/file/d/1cTKXpIoi0LUwGxUQ1vVDcztYdDt9p5PS/view?usp=drive_link"
         }
-    ]
+    ],
+
+    "sendEmail":{
+        "error": "Ocorreu um erro ao enviar o e-mail. Por favor, tente novamente mais tarde.",
+        "success": "E-mail enviado com sucesso!"
+    }
 }

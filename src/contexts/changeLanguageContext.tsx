@@ -50,7 +50,7 @@ export const ChangeLanguageProvider = ({children}:changeLanguageProviderProps) =
     }
 
     if (loading){
-        return <Loading/>
+        //return <Loading/>
     }
 
     return(

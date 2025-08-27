@@ -2,67 +2,67 @@
     "header": {
         "sections": [
             {
-                "title": "About",
+                "title": "Sobre",
                 "href": "#about"
             },
             {
-                "title": "Projects",
+                "title": "Projetos",
                 "href": "#projects"
             },
             {
-                "title": "Skills",
+                "title": "Habilidades",
                 "href": "#skills"
             },
             {
-                "title": "Certificates",
+                "title": "Certificados",
                 "href": "#certificates"
             },
             {
-                "title": "Contact Me",
+                "title": "Contate-me",
                 "href": "#contact"
             }
         ]
     },
 
     "about": {
-        "title": "<h1 class='text-4xl'><p class='text-xl opacity-70'>Hello, I am</p>Gabriel, a Web Developer</h1>",
-        "description": "I am a web developer from São Paulo, with experience in frontend and backend. This portfolio showcases my journey, learnings, and projects in the field of web development."
+        "title": "<h1 class='text-4xl'><p class='text-xl opacity-70'>Olá, eu sou</p>Gabriel, um desenvolvedor web</h1>",
+        "description": "Sou desenvolvedor web de São Paulo, com experiência em frontend e backend. Este portfólio apresenta minha trajetória, aprendizados e projetos na área de desenvolvimento."
     },
 
     "projects": {
-        "title": "Projects",
+        "title": "Projetos",
         "projects": [
             {
                 "title": "IFM Diagram Building Tools",
-                "description": "A project currently under development for the company I work for. It allows creating intuitive diagrams for IO-Link, Mobile, and ASi-Interface. The system also includes the option to generate an Excel spreadsheet for quoting items from the company's e-shop, as well as electrical wiring diagrams.",
+                "description": "Projeto em desenvolvimento para a empresa onde trabalho. Ele permite criar diagramas intuitivos em interfaces IO-Link, Mobile e ASi-Interface. O sistema também oferece a opção de gerar uma planilha Excel para cotação de itens no e-shop da empresa, além de diagramas de ligações elétricas.",
                 "link": "https://diagrambuilding.vercel.app/",
                 "image": "https://drive.google.com/file/d/1wRsukUG0Gd46-oFcUdMDpZf8BS7RcxqO/view?usp=drive_link"
             },
             {
                 "title": "Londres Barber",
-                "description": "Landing page developed for a barbershop located in the Perus neighborhood.",
+                "description": "Landing page desenvolvida para uma barbearia localizada no bairro de Perus.",
                 "link": "https://douglas-barber.vercel.app/",
                 "image": "https://drive.google.com/file/d/1jXHYE82-cta0Tq6T5rQu90vptFGuVXVB/view?usp=drive_link"
             },
             {
                 "title": "SalãoCondo",
-                "description": "A system for booking and managing condominium party halls. It includes three user roles (resident, administrator, and doorman). Users can schedule, approve, or cancel reservations, register guest lists, and perform check-in on the day of the event.",
+                "description": "Sistema para reserva e gestão de salões de festas em condomínios. Conta com três personas (morador, administrador e porteiro). É possível agendar, aprovar ou cancelar reservas, registrar lista de convidados e realizar check-in no dia do evento.",
                 "link": "https://salaocondo.vercel.app/",
                 "image": "https://drive.google.com/file/d/1-plPIDABOBZHYz4MX3yPYsc7W0Hw7uYu/view?usp=drive_link"
             },
             {
                 "title": "NewTechTVS",
-                "description": "Landing page created for a company that sells and maintains televisions, located in Santa Ifigênia.",
+                "description": "Landing page criada para uma empresa de venda e manutenção de televisores localizada na Santa Ifigênia.",
                 "link": "https://newtechtvs.com/",
                 "image": "https://drive.google.com/file/d/12FFmaO07E7fCxFIe_jbNfLvrGB9mv6fv/view?usp=drive_link"
             }
         ],
-        "go": "Visit"
+        "go": "Visitar"
     },
 
     "skills": {
-        "title": "My Tech Stack",
-        "title2": "Skills",
+        "title": "Minhas Stacks",
+        "title2": "Habilidades",
         "skills": [
             { "title": "HTML", "image": "https://drive.google.com/file/d/17-zWgr-hSq8NgsPAepWUDTg6cRDJO9D5/view?usp=drive_link" },
             { "title": "CSS", "image": "https://drive.google.com/file/d/1jL0jcM-f_LhuPftN-OAQyOVuL86MVjOk/view?usp=drive_link" },
@@ -77,20 +77,62 @@
             { "title": "MongoDB", "image": "https://drive.google.com/file/d/1NuLCx6578f_jGsXV249S9bR8F9aMO553/view?usp=drive_link" },
             { "title": "Firebase", "image": "https://drive.google.com/file/d/1KafeHRerYz5B19Mj9gBlsvTFVmd_I2n1/view?usp=drive_link" },
             { "title": "Git", "image": "https://drive.google.com/file/d/1B79rxiceuYX_EtSMXBxwQb44qwAsI7V_/view?usp=drive_link" },
-            { "title": "GitHub", "image": "https://drive.google.com/file/d/130Ah2I9-hKKp5-6CiF08AXRGzWVbv5m1/view?usp=drive_link" }
+            { "title": "Github", "image": "https://drive.google.com/file/d/130Ah2I9-hKKp5-6CiF08AXRGzWVbv5m1/view?usp=drive_link" }
         ]
     },
 
+    "certificates": {
+        "title": "Certificados",
+        "certificates": [
+            {
+                "title": "Do Zero à API: Curso de JavaScript e TypeScript - JS/TS",
+                "description": "Curso completo de Node.js, abordando a criação de APIs RESTful seguras e escaláveis, incluindo autenticação com JWT e Bcrypt, boas práticas de desenvolvimento e otimização de desempenho. Inclui Docker, Dockerfile e conceitos de TypeScript.",
+                "image":"https://drive.google.com/file/d/1gAVJiHVBP0r0y970Xwmlccu6qth9htWP/view?usp=drive_link"
+            },
+            {
+                "title":"Projeto Completo NodeJS, React, React Native, TypeScript",
+                "description":"Curso Full Stack que ensina a desenvolver projetos completos com Node.js, React.js e React Native, cobrindo backend, frontend e mobile. Inclui banco de dados, APIs, boas práticas e implantação de sistemas prontos para produção.",
+                "image":"https://drive.google.com/file/d/1osnFK32zV3-6Jn1m78PkO7pmMmJivmUF/view?usp=drive_link"
+            },
+            {
+                "title":"Tailwind CSS do zero ao avançado + Projetos",
+                "description":"Curso de Tailwind CSS com foco na criação de layouts profissionais e responsivos, utilizando Grid, Flexbox, animações, tipografia e pseudo-classes. Inclui projetos práticos e técnicas avançadas de design frontend.",
+                "image":"https://drive.google.com/file/d/1nMaJCMsfCnldXNxL6NOB5HwS7sVjyO67/view?usp=drive_link"
+            },
+            {
+                "title":"MongoDB: Do Básico ao Avançado",
+                "description":"Curso que aborda MongoDB desde a instalação até consultas avançadas, operações CRUD e integração com Node.js. Ensina manipulação de dados em bancos de dados não relacionais.",
+                "image":"https://drive.google.com/file/d/1v9J3nNTbPQ1SYadPvgVuMxEA2TDXoJya/view?usp=drive_link"
+            },
+            {
+                "title":"Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos",
+                "description":"Curso de Front-End que cobre HTML, CSS e JavaScript, com foco na criação de sites modernos, responsivos e interativos. Inclui layouts com Flexbox e Grid, efeitos CSS3, SEO, acessibilidade e mais de 10 projetos práticos.",
+                "image":"https://drive.google.com/file/d/1VN1wTIfiWuL2xF94PK6eebsRRjKpShu-/view?usp=drive_link"
+            },
+            {
+                "title":"PRO FIGMA | UI DESIGN com Figma do Zero ao especialista",
+                "description":"Curso completo de Figma, abordando desde ferramentas básicas até prototipação avançada de aplicativos e sites. Inclui UI/UX, componentização, auto layout, animações, fluxos de usuário e criação de design systems.",
+                "image":"https://drive.google.com/file/d/10On972Fnyj1CP7NWpNp-vEs2vB_Y2HVH/view?usp=drive_link"
+            },
+            {
+                "title":"Inglês Extremo - Curso Completo do Zero à Fluência",
+                "description":"Curso de inglês completo, com metodologia prática e progressiva, focado em compreensão auditiva, vocabulário e comunicação do dia a dia. Inclui recursos de memorização, flashcards e abordagem natural de aprendizado.",
+                "image":"https://drive.google.com/file/d/1C4Mu0C_51XXvFoCMsAvu8zAK0AsqmqCS/view?usp=sharing"
+            }
+        ]
+    },
+
+
     "email": {
-        "title": "Send me a message!",
-        "description": "Do you have a question, proposal, or just want to say hi? Feel free to reach out.",
-        "inputName": "Your name",
-        "inputNamePlaceholder": "Enter your name",
-        "inputEmail": "Your email",
-        "inputEmailPlaceholder": "Enter your email",
-        "inputSubject": "Subject",
-        "inputMessage": "Enter your message",
-        "button": "Send"
+        "title": "Me envie uma mensagem!",
+        "description": "Tem alguma dúvida, proposta ou apenas quer dizer oi? Fique à vontade para me escrever.",
+        "inputName": "Seu nome",
+        "inputNamePlaceholder": "Digite seu nome",
+        "inputEmail": "Seu e-mail",
+        "inputEmailPlaceholder": "Digite seu e-mail",
+        "inputSubject": "Assunto",
+        "inputMessage": "Digite sua mensagem",
+        "button": "Enviar"
     },
 
     "contact": [
@@ -101,6 +143,14 @@
         {
             "title": "GitHub",
             "href": "https://github.com/ferndsgabriel"
+        },
+        {
+            "title":"Currículo",
+            "href":"https://drive.google.com/file/d/1cTKXpIoi0LUwGxUQ1vVDcztYdDt9p5PS/view?usp=drive_link"
         }
-    ]
+    ],
+    "sendEmail": {
+        "error": "An error occurred while sending the email. Please try again later.",
+        "success": "Email sent successfully!"
+    }
 }
