@@ -1,19 +1,16 @@
 import { createContext, useContext, useState, useEffect, useRef, type ReactNode } from 'react';
-const bgColors = ['#FFFFFF', '#C7D2FE', '#A5B4FC', '#818CF8'];
 
-
-
-
-
-
+const bgColors = ['#000000', 'rgb(4,6,90)', 'rgb(1,3,134)', 'rgb(5,8,207)'];
 
 interface BgContextType {
   bg: string;
+  scrollPercent: number; // porcentagem atual do scroll
   setCustomScrollContainer: (el: HTMLDivElement | null) => void;
 }
 
 const BgContext = createContext<BgContextType>({
   bg: bgColors[0],
+  scrollPercent: 0,
   setCustomScrollContainer: () => {}
 });
 
@@ -25,6 +22,7 @@ interface BgProviderProps {
 
 export const BgProvider = ({ children }: BgProviderProps) => {
   const [bg, setBg] = useState(bgColors[0]);
+  const [scrollPercent, setScrollPercent] = useState(0);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
 
   const setCustomScrollContainer = (el: HTMLDivElement | null) => {
@@ -38,14 +36,21 @@ export const BgProvider = ({ children }: BgProviderProps) => {
 
       if (!target) return;
 
-      const scrollPos = isWide 
-        ? (target as HTMLDivElement).scrollLeft 
+      const scrollPos = isWide
+        ? (target as HTMLDivElement).scrollLeft
         : window.scrollY;
-      
+
       const dimension = isWide
         ? (target as HTMLDivElement).scrollWidth
         : document.documentElement.scrollHeight;
 
+      const viewport = isWide ? window.innerWidth : window.innerHeight;
+
+      // cálculo da porcentagem (0–100)
+      const percent = (scrollPos / (dimension - viewport)) * 100;
+      setScrollPercent(Math.min(Math.max(percent, 0), 100)); // clamp entre 0 e 100
+
+      // lógica das cores
       const sectionSize = dimension / bgColors.length;
       const index = Math.floor(scrollPos / sectionSize);
       const clampedIndex = Math.min(index, bgColors.length - 1);
@@ -70,7 +75,7 @@ export const BgProvider = ({ children }: BgProviderProps) => {
   }, []);
 
   return (
-    <BgContext.Provider value={{ bg, setCustomScrollContainer }}>
+    <BgContext.Provider value={{ bg, scrollPercent, setCustomScrollContainer }}>
       {children}
     </BgContext.Provider>
   );

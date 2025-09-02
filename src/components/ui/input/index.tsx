@@ -9,9 +9,9 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement>{
 function Input ({name, placeholder, ...rest}:InputProps){
     return(
         <div className="flex flex-col gap-2 items-start w-full justify-start">
-            <span className="opacity-50">{name}</span>
+            <span className="text-white/50">{name}</span>
             <input {...rest} 
-            className="w-full placeholder:text-blue-900 focus:placeholder:text-black outline-none border-b-1 py-2 border-blue-900 focus:border-black" 
+            className="border-white/50 focus:border-white w-full placeholder:text-white/80 focus:placeholder:text-transparent outline-none border-b-1 py-2" 
             placeholder={placeholder}/>
         </div>
     )

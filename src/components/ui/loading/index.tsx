@@ -32,7 +32,7 @@ export default function Loading() {
     };
 
     return (
-        <div className="h-screen flex items-center justify-center w-full top-0 left-0 fixed bg-white z-50">
+        <div className="h-screen flex items-center justify-center w-full top-0 left-0 fixed z-50">
             {hellosIdiomues()}
         </div>
     );

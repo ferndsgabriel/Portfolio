@@ -4,6 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import { useBg } from "../../../contexts/bgColorContext";
 import { useTranslation } from "react-i18next";
 import changeLanguageContext from "../../../contexts/changeLanguageContext";
+import LinkUnderline from "../LinkUnderline";
 
 type Section = {
     title: string;
@@ -26,9 +27,10 @@ function Header(){
         return(
                 <>
                     {sections.map((item, index) => (
-                        <li key={index} className="relative group w-fit">
-                            <span className="w-0 absolute -bottom-1 left-0 h-[2px] bg-black group-hover:w-full transition-all duration-500"></span>
-                            <a href={item.href}>{item.title}</a>
+                        <li key={index}>
+                            <LinkUnderline href={item.href}>
+                                <span>{item.title}</span>
+                            </LinkUnderline>
                         </li>
                     ))}
                 </>
@@ -52,9 +54,10 @@ function Header(){
                     
                     <ul className="lg:flex gap-12 h-full items-center hidden">
                         {renderList()}
-                        <li className="relative group w-fit">
-                            <span className="w-0 absolute -bottom-1 left-0 h-[2px] bg-black group-hover:w-full transition-all duration-500"></span>
-                            <button onClick={changeLanguage}>PT/EN</button>
+                        <li>
+                            <LinkUnderline>
+                                <button onClick={changeLanguage}>PT/EN</button>
+                            </LinkUnderline>
                         </li>
                     </ul>
 
