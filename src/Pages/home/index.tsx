@@ -192,8 +192,8 @@ export default function Home (){
                         <div className="flex flex-col gap-2">
                             {contacts.map((item, index) => (
                                 <div key={index}>
-                                    <LinkArrow href={item.href}>
-                                        {item.title}
+                                    <LinkArrow >
+                                        <a href={item.href}>{item.title}</a>
                                     </LinkArrow>
                                 </div>
                             ))}

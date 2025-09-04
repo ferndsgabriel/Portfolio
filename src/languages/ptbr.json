@@ -71,7 +71,7 @@
             { "title": "JavaScript", "image": "https://drive.google.com/file/d/168JjYSFLB0ESlwvH9fN3ldsjJ_8Gx4Fm/view?usp=drive_link" },
             { "title": "TypeScript", "image": "https://drive.google.com/file/d/1ucUAUEUjG-Ri0fNMbuG-ZlWbwz14LdXU/view?usp=drive_link" },
             { "title": "React.JS", "image": "https://drive.google.com/file/d/1Hu4j-OLyZxabaUXFmzUi8J3FesbTJg9w/view?usp=drive_link" },
-            { "title": "Next.JS", "image": "https://drive.google.com/file/d/1W4BEA_ZcMllbYndkiXuOugnynlOTgo5d/view?usp=drive_link" },
+            { "title": "Next.JS", "image": "https://drive.google.com/file/d/1hn3GQFWimtaOXOc5V-LhYqm-hnM38HW7/view?usp=drive_link" },
             { "title": "Node.JS", "image": "https://drive.google.com/file/d/1CWX7qwGnWix_GRq4dZHs32Gcieka4qef/view?usp=drive_link" },
             { "title": "Nest.JS", "image": "https://drive.google.com/file/d/1R1WgO5UgJV3IEHrEJr-7nbMi1t1ApbCk/view?usp=drive_link" },
             { "title": "MongoDB", "image": "https://drive.google.com/file/d/1NuLCx6578f_jGsXV249S9bR8F9aMO553/view?usp=drive_link" },
@@ -84,6 +84,11 @@
     "certificates": {
         "title": "Certificados",
         "certificates": [
+            {
+                "title": "Gestão de TI",
+                "description": "Graduação de gestão de tecnologia da informação pela FATEC",
+                "image":"https://drive.google.com/file/d/15B3VzymgEqcTehe0kkcCvmImDrkW60YY/view?usp=drive_link"
+            },
             {
                 "title": "Do Zero à API: Curso de JavaScript e TypeScript - JS/TS",
                 "description": "Curso completo de Node.js, abordando a criação de APIs RESTful seguras e escaláveis, incluindo autenticação com JWT e Bcrypt, boas práticas de desenvolvimento e otimização de desempenho. Inclui Docker, Dockerfile e conceitos de TypeScript.",
@@ -153,5 +158,9 @@
     "sendEmail":{
         "error": "Ocorreu um erro ao enviar o e-mail. Por favor, tente novamente mais tarde.",
         "success": "E-mail enviado com sucesso!"
+    },
+
+    "components":{
+        "scroll":"Role para mais"
     }
 }

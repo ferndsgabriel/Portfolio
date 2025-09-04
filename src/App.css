@@ -87,11 +87,11 @@ a, button{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: black;   
+    background: white;   
     border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(44, 44, 44);
+    background: rgba(255, 255, 255, 0.623); 
 }
 

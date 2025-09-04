@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect, useRef, type ReactNode } from 'react';
 
-const bgColors = ['#000000', 'rgb(4,6,90)', 'rgb(1,3,134)', 'rgb(5,8,207)'];
+const bgColors = ['#000000', '#04065A', '#010386', '#0508CF'];
+
 
 interface BgContextType {
   bg: string;
