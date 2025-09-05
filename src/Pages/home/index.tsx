@@ -89,35 +89,38 @@ export default function Home (){
             items: 1
         }
     };
+    
 
-    const renderProjects = () =>{
-        return(
-            projects.map((item, index) => (
-                <a href={item.link} target="_blank" key={index}
-                className="flex-none relative aspect-square lg:h-96 lg:w-96 rounded-sm overflow-hidden bg-white group">
+    const renderProjects = () => {
+        return projects.map((item, index) => (
+            <div key={index} className="flex-none">
+                <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative aspect-square lg:h-96 lg:w-96 rounded-sm overflow-hidden bg-white group block">
                     <div className="absolute inset-0">
                         <img
                         src={formatGoogleDriveUrl(item.image)}
                         alt={item.title}
-                        className="w-full h-full object-cover object-center"
-                        />
+                        className="w-full h-full object-cover object-center"/>
                     </div>
 
-                    <div  
-                    className="absolute inset-0 bg-black/60 p-6 flex flex-col gap-4 justify-end text-white group-hover:bg-black/10 transition-colors duration-300">
+                    <div className="absolute inset-0 bg-black/60 p-6 flex flex-col gap-4 justify-end text-white group-hover:bg-black/10 transition-colors duration-300">
                         <h3 className="font-bold text-lg group-hover:hidden">{item.title}</h3>
                         <p className="text-xs group-hover:hidden">{item.description}</p>
 
-                        <div key={index} className="group-hover:hidden">
+                        <div className="group-hover:hidden">
                             <LinkArrow>
-                                {<span>{t("projects.go")}</span>}
+                            <span>{t("projects.go")}</span>
                             </LinkArrow>
                         </div>
                     </div>
                 </a>
-            ))
-        )
+            </div>
+        ))
     }
+
 
     const renderCertificates = (item:certificatesProps, index:number)=>{
         return(

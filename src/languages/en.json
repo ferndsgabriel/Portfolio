@@ -1,11 +1,11 @@
 {
     "header": {
         "sections": [
-            { "title": "About", "href": "#about" },
-            { "title": "Projects", "href": "#projects" },
-            { "title": "Skills", "href": "#skills" },
-            { "title": "Certificates", "href": "#certificates" },
-            { "title": "Contact Me", "href": "#contact" }
+            { "title": "About", "href": "about" },
+            { "title": "Projects", "href": "projects" },
+            { "title": "Skills", "href": "skills" },
+            { "title": "Certificates", "href": "certificates" },
+            { "title": "Contact Me", "href": "contact" }
         ]
     },
 

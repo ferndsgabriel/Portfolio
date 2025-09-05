@@ -28,7 +28,7 @@ function Header(){
                 <>
                     {sections.map((item, index) => (
                         <li key={index}>
-                            <LinkUnderline href={item.href}>
+                            <LinkUnderline onClick={() => navigate(item.href)}>
                                 <span>{item.title}</span>
                             </LinkUnderline>
                         </li>
@@ -36,6 +36,15 @@ function Header(){
                 </>
         )
     }
+
+
+    const navigate = (id: string) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+        setIsOpen(false);
+    };
 
 
 
@@ -84,6 +93,12 @@ function Header(){
 
                 <ul className="w-full flex flex-col gap-4 border-b-4 py-4">
                     {renderList()}
+
+                    <li className="mt-8">
+                        <LinkUnderline>
+                            <button onClick={changeLanguage}>PT/EN</button>
+                        </LinkUnderline>
+                    </li>
                 </ul>
             </nav>
             

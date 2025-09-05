@@ -3,23 +3,23 @@
         "sections": [
             {
                 "title": "Sobre",
-                "href": "#about"
+                "href": "about"
             },
             {
                 "title": "Projetos",
-                "href": "#projects"
+                "href": "projects"
             },
             {
                 "title": "Habilidades",
-                "href": "#skills"
+                "href": "skills"
             },
             {
                 "title": "Certificados",
-                "href": "#certificates"
+                "href": "certificates"
             },
             {
                 "title": "Contate-me",
-                "href": "#contact"
+                "href": "contact"
             }
         ]
     },
