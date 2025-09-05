@@ -16,7 +16,7 @@ function ScrollStatus (){
 
             <div className="flex items-center gap-2">
                 <FaArrowLeft/>
-                <div className="flex items-center w-64 relative">
+                <div className="flex items-center w-40 relative">
                     {/* Linha sólida ocupando 50% */}
                     <span style={{width: `${scrollPercent}%`}} 
                     className="h-1 bg-white absolute"></span>
