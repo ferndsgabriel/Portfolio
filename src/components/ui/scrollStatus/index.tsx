@@ -11,7 +11,7 @@ function ScrollStatus (){
     if (!ready) return null;
     
     return( 
-        <div className="fixed bottom-0 right-0 lg:flex items-center gap-4 p-8 hidden">
+        <div className="fixed bottom-0 right-0 lg:flex items-center gap-4 py-2 px-4 hidden">
             <span className="text-white">{t('components.scroll')}</span>
 
             <div className="flex items-center gap-2">
